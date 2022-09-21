@@ -1,0 +1,85 @@
+body, html{
+    background-image: url("../Images/loginpage.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+/* image */
+#loginIcon{
+    display: block;
+    margin-left: 559px;
+    margin-top: 300px;
+}
+
+/* login form*/
+.formulaire1{
+    position: absolute;
+    text-align: center;
+    margin-left: 345px;
+    top: 600px;
+}
+
+label{
+    width: 240px;
+    display: inline-block;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#password{
+    padding: 4px;
+}
+
+/* Register form */
+.formulaire2{
+    position: relative;
+    text-align: center;
+    margin-left: 160px;
+    bottom: 198px;
+}
+
+input{
+    padding: 12px 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+#titre_form{
+    position: relative;
+    text-align: center;
+    margin-left: 231px;
+    margin-bottom: 15px;
+}
+
+/* Button */
+#btnsubmit, #btnSub{
+    padding: 8px;
+}
+#btnsubmit{
+    margin-left: 220px;
+}
+/* href */
+.refPages{
+    position: relative;
+    text-align: center;
+    top: 800px;
+}
+
+a:visited{
+    color: black;
+}
+
+#acceuil, #articles{
+    color: black;
+    margin-left: 12px;
+    margin-right: 120px;
+    font-size: 18px;
+}

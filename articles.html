@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<!-- La page de vente doit présenter les 6 produits (avec images) et permettre à l'utilisateur, à l'aide de formulaires et structures appropriées, 
+de choisir un ou plusieurs produits. La page de vente doit ensuite avoir un bouton pour effectuer l'achat. -->
+
+<html>
+    <head>
+        <title>Artisan Inc./Articles</title>
+        <meta name="CHARSET" content="UTF-8">
+        <meta name="Author" content="Patrick Oliveira">
+        <meta name="Content" content="Html, Css">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+        <link rel="StyleSheet" href="Css/myStyle3.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="Page d'acceuil.html">Acceuil</a>
+            </nav>
+        </header>
+        <table>
+            <tr>
+                <td>
+                    <!--Source:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number-->
+                    <img class="articles articlesL" id="article1" src="Images/pot1.jpg" alt="article1">
+                    <label for="articles">Nombre d'articles (0-100):</label>
+                    <input type="number"  name="nbrArticles" min="0" max="100" placeholder="0">
+                </td>
+                <td>
+                    <img class="articles articlesR" id="article2" src="Images/pot2.jpg" alt="article2"> 
+                    <label for="articles">Nombre d'articles (0-100):</label>
+                    <input type="number" name="nbrArticles" min="0" max="100" placeholder="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="articles articlesL"  id="article3" src="Images/pot3.jpg" alt="article3">
+                    <label for="articles">Nombre d'articles (0-100):</label>
+                    <input type="number" name="nbrArticles" min="0" max="100" placeholder="0">
+                </td>
+                <td>
+                    <img class="articles articlesR" id="article4" src="Images/pot4.jpg" alt="article4">
+                    <label for="articles">Nombre d'articles (0-100):</label>
+                    <input type="number" name="nbrArticles" min="0" max="100" placeholder="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="articles articlesL" id="article5" src="Images/pot5.jpg" alt="article5">
+                    <label for="articles">Nombre d'articles (0-100):</label>
+                    <input type="number" name="nbrArticles" min="0" max="100" placeholder="0">
+                </td>
+                <td>
+                    <img class="articles articlesR" id="article6" src="Images/pot6.jpg" alt="article6">
+                    <label for="articles">Nombre d'articles (0-100):</label>
+                    <input type="number" name="nbrArticles" min="0" max="100" placeholder="0">
+                </td>
+            </tr>
+            <div id="btnSub">
+                <input  id="btnsubmit" type="submit" name="Effectuer Payement!" value="Effectuer Payement!">
+            </div>
+        </table>
+
+        <p class="colDesc1" id="description1"><strong><u>Kela Lime Grand</u></strong><br>
+            Grands pots en argile antiques et traditionnels lavés à la chaux Kela<br>
+            Un superbe pot traditionnel lavé à la chaux, nos grands pots Kela sont<br>
+            tous uniques dans leur forme et leurs marques.<br>
+            Accompagnés d'un support en métal complémentaire,<br>
+            ces pots peuvent être utilisés comme pièces décoratives<br>
+            avec ou sans plantes et constituent un excellent ajout<br> 
+            aux grappes de pots ou pour être<br> 
+            associés à nos bocaux en verre Dame-jeanne et nos auges en bois.
+        </p>
+        <p class="colDesc2" id="description2"><strong><u>Levéa trouve</u></strong><br>
+            Levea trouve des pots en argile antiques et traditionnels rares<br>
+            Chacun de ces pots Levea est sélectionné individuellement.<br> 
+            Nous recherchons des pots uniques par leur caractère,<br>
+            leur forme et leur âge.<br>
+        </p>
+        <p class="colDesc1" id="description3"><strong><u>Kela Lime Petit</u></strong><br>
+            Petits pots en argile antiques et traditionnels lavés à la chaux Kela<br>
+            Nos petits pots Kela se présentent sous différentes formes et finitions,<br>
+            chaque pot ayant sa propre apparence et ses propres caractéristiques.<br>
+            Accompagnés d'un support en métal complémentaire, ces pots peuvent<br> 
+            être utilisés comme éléments décoratifs avec ou sans plantes et<br> 
+            constituent un excellent ajout aux grappes de pots.
+        </p>  
+        <p class="colDesc2"  id="description4"><strong><u>Abreuvoir en bois</u></strong><br>
+            Abreuvoir en bois sculpté à la main avec support en fer<br>
+            Nos incroyables auges en bois sculptées à la main sont disponibles<br>
+            dans une gamme de tailles et de formes,<br>
+            chacune avec un support en fer spécialement conçu.<br>
+            Ces bacs sont parfaits comme jardins d'herbes aromatiques<br>
+                et s'adaptent à des espaces compacts,<br> 
+            ou peuvent être utilisés comme éléments décoratifs dans de plus grands jardins.<br>
+            Avec ou sans plantes, ces bacs sont un spectacle spectaculaire.
+        </p>
+        <p class="colDesc1" id="description5"><strong><u>Voi</u></strong><br>
+            Pots en argile antiques et traditionnels Voi<br>
+            Nos Voi Pots sont une fonctionnalité complète en eux-mêmes.<br>
+            Les belles courbes et les poignées complexes leur donnent<br>
+            une apparence exquise et sculpturale.<br>
+            Ils sont également parfaits pour les plantes en cascade et peuvent<br>
+            être associés aux produits de nos collections Antique,<br>
+            LANDARE et Contemporary.
+        </p>
+        <p class="colDesc2" id="description6"><strong><u>Noix de gomme</u></strong><br>
+            LANDARE Pots en argile traditionnels Gumnut<br>
+            Fabriqué selon des techniques traditionnelles de poterie thaïlandaise,<br>
+            le pot LANDARE Gumnut est une grande jardinière<br> 
+            adaptée aux arbustes remarquables.La belle patine accentue la ressemblance<br>
+        </p>
+        
+    </body>
+</html>

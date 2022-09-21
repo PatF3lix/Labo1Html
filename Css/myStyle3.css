@@ -1,0 +1,83 @@
+body, html{
+    background-image: url("../Images/backgroundArticles.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+}
+/* images */
+div{
+    width: 25%;
+    height: 10%;
+}
+.articles{
+    width: 400px;
+    height: 300px;
+}
+
+
+a:visited{
+    color: black;
+}
+
+a{
+    position: relative;
+    margin-left: 920px;
+    top: 1100px;
+    font-size: 18px;
+}
+
+/* Label */
+label{
+    display: inline;
+    margin-left: 550px ;
+}
+    
+/* Text */
+p{
+    font-size: 18px;
+}
+
+.colDesc1{
+    position: relative;
+    margin-left: 420px;
+}
+.colDesc2{
+    position: relative;
+    margin-left: 1380px;
+}
+
+#description1{
+    bottom: 970px;
+
+}
+#description2{
+    bottom: 1170px;
+
+}
+#description3{
+    bottom: 970px;
+}
+#description4{
+    bottom: 1130px;
+}
+#description5{
+    bottom: 1020px;
+}
+#description6{
+    bottom: 1190px;
+}
+
+/* button */
+#btnSub{
+    position: relative;
+    top: 1110px;
+    left: 880px;
+}

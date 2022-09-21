@@ -1,0 +1,58 @@
+body, html{
+    background-image: url("../Images/backgroundArt.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+.parag1{
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    left: 350px;
+    top: 410px;
+    /* source: https://stackoverflow.com/questions/15449280/making-text-background-transparent-but-not-text-itself*/
+    background: rgb(204, 204, 204); /*Grey*/
+    background: rgba(204, 204, 204, 0.5); /*transparents*/
+}
+
+.refPage{
+    font-size: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 720px;
+}
+
+.tableau{
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 620px;
+    font-size: 18px;
+}
+
+#info{
+    text-align: left;
+}
+
+#contacts{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#telephone{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top:700px;
+}
+#title{
+    position: relative;
+    text-align: center;
+    top: 328px;
+}
